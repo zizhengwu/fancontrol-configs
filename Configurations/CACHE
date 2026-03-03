@@ -1,22 +1,23 @@
 {
   "CurrentConfigFileName": "userConfig.json",
-  "Updater": {
-    "CheckForUpdateAtStartup": false,
-    "DisablePopupVersionNumber": 0
-  },
+  "CustomConfigFolder": "C:\\Users\\zizheng\\scoop\\apps\\fancontrol\\current\\Configurations",
   "Main": {
     "CultureSymbol": "en",
     "DisableDonationPopup": true,
     "DisablePawnIoPopup": true,
     "FirstLaunch": false,
     "FontFamily": "Default (MaterialDesign)",
-    "Height": 1079.3333333333333,
-    "Left": 116.66666666666666,
+    "Height": 1093,
+    "Left": 116.5,
     "LeftDrawerOpen": true,
     "PopupShownDateTime": "2026-02-15T06:54:24.6963309-08:00",
     "StartMinimized": true,
-    "Top": 77.333333333333329,
-    "Width": 1919.3333333333333,
-    "WindowState": 0
+    "Top": 77.5,
+    "Width": 1933,
+    "WindowState": 2
+  },
+  "Updater": {
+    "CheckForUpdateAtStartup": false,
+    "DisablePopupVersionNumber": 0
   }
 }
