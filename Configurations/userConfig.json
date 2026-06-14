@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "261",
+  "__VERSION__": "269",
   "FanControl": {
     "Controls": [
       {
@@ -25,51 +25,63 @@
         "Calibration": [
           [
             0,
-            0
+            0,
+            false
           ],
           [
             1,
-            988
+            988,
+            false
           ],
           [
             10,
-            988
+            988,
+            false
           ],
           [
             20,
-            988
+            988,
+            false
           ],
           [
             30,
-            988
+            988,
+            false
           ],
           [
             40,
-            1279
+            1279,
+            false
           ],
           [
             50,
-            1568
+            1568,
+            false
           ],
           [
             60,
-            1858
+            1858,
+            false
           ],
           [
             70,
-            2144
+            2144,
+            false
           ],
           [
             80,
-            2435
+            2435,
+            false
           ],
           [
             90,
-            2721
+            2721,
+            false
           ],
           [
             100,
-            2982
+            2982,
+            false
           ]
         ]
       },
@@ -96,51 +108,63 @@
         "Calibration": [
           [
             0,
-            0
+            0,
+            false
           ],
           [
             1,
-            992
+            992,
+            false
           ],
           [
             10,
-            992
+            992,
+            false
           ],
           [
             20,
-            992
+            992,
+            false
           ],
           [
             30,
-            992
+            992,
+            false
           ],
           [
             40,
-            1281
+            1281,
+            false
           ],
           [
             50,
-            1570
+            1570,
+            false
           ],
           [
             60,
-            1858
+            1858,
+            false
           ],
           [
             70,
-            2152
+            2152,
+            false
           ],
           [
             80,
-            2441
+            2441,
+            false
           ],
           [
             90,
-            2737
+            2737,
+            false
           ],
           [
             100,
-            2966
+            2966,
+            false
           ]
         ]
       },
@@ -167,51 +191,63 @@
         "Calibration": [
           [
             0,
-            0
+            0,
+            false
           ],
           [
             1,
-            989
+            989,
+            false
           ],
           [
             10,
-            989
+            989,
+            false
           ],
           [
             20,
-            989
+            989,
+            false
           ],
           [
             30,
-            989
+            989,
+            false
           ],
           [
             40,
-            1281
+            1281,
+            false
           ],
           [
             50,
-            1573
+            1573,
+            false
           ],
           [
             60,
-            1861
+            1861,
+            false
           ],
           [
             70,
-            2155
+            2155,
+            false
           ],
           [
             80,
-            2445
+            2445,
+            false
           ],
           [
             90,
-            2723
+            2723,
+            false
           ],
           [
             100,
-            2965
+            2965,
+            false
           ]
         ]
       },
@@ -219,7 +255,7 @@
         "NickName": "CPU Fan",
         "Identifier": "/lpc/nct6687dr/control/0",
         "IsHidden": false,
-        "Enable": false,
+        "Enable": true,
         "SelectedFanCurve": null,
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -230,49 +266,59 @@
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
-        "ManualControlValue": 50,
+        "ManualControlValue": 0,
         "ManualControl": false,
         "ForceApply": false,
         "Calibration": [
           [
             10,
-            0
+            0,
+            false
           ],
           [
             20,
-            344
+            344,
+            false
           ],
           [
             30,
-            519
+            519,
+            false
           ],
           [
             40,
-            682
+            682,
+            false
           ],
           [
             50,
-            837
+            837,
+            false
           ],
           [
             60,
-            979
+            979,
+            false
           ],
           [
             70,
-            1104
+            1104,
+            false
           ],
           [
             80,
-            1229
+            1229,
+            false
           ],
           [
             90,
-            1352
+            1352,
+            false
           ],
           [
             100,
-            1472
+            1472,
+            false
           ]
         ]
       },
@@ -280,7 +326,7 @@
         "NickName": "Pump Fan",
         "Identifier": "/lpc/nct6687dr/control/1",
         "IsHidden": false,
-        "Enable": false,
+        "Enable": true,
         "SelectedFanCurve": null,
         "SelectedOffset": 0,
         "PairedFanSensor": {
@@ -291,49 +337,59 @@
         "MinimumPercent": 0,
         "SelectedCommandStepUp": 8,
         "SelectedCommandStepDown": 8,
-        "ManualControlValue": 50,
+        "ManualControlValue": 0,
         "ManualControl": false,
         "ForceApply": false,
         "Calibration": [
           [
             10,
-            0
+            0,
+            false
           ],
           [
             20,
-            332
+            332,
+            false
           ],
           [
             30,
-            506
+            506,
+            false
           ],
           [
             40,
-            670
+            670,
+            false
           ],
           [
             50,
-            819
+            819,
+            false
           ],
           [
             60,
-            961
+            961,
+            false
           ],
           [
             70,
-            1088
+            1088,
+            false
           ],
           [
             80,
-            1212
+            1212,
+            false
           ],
           [
             90,
-            1338
+            1338,
+            false
           ],
           [
             100,
-            1456
+            1456,
+            false
           ]
         ]
       },
@@ -519,9 +575,8 @@
         },
         "Points": [
           "20,20",
-          "65.1,19.966222222222214",
-          "70,40.1",
-          "77.6,40.05511111111111",
+          "72.9,19.966222222222214",
+          "73,50.89955555555555",
           "80,80"
         ],
         "MaximumTemperature": 120,
@@ -625,48 +680,7 @@
         "NickName": "EZ-Connect Fan"
       }
     ],
-    "TemperatureSensors": [
-      {
-        "Identifier": "/amdcpu/0/temperature/2",
-        "IsHidden": false,
-        "NickName": "Core (Tctl/Tdie)"
-      },
-      {
-        "Identifier": "/amdcpu/0/temperature/3",
-        "IsHidden": false,
-        "NickName": "CCD1 (Tdie)"
-      },
-      {
-        "Identifier": "/gpu-amd/0/temperature/4",
-        "IsHidden": false,
-        "NickName": "GPU VR SoC"
-      },
-      {
-        "Identifier": "/lpc/nct6687dr/temperature/0",
-        "IsHidden": false,
-        "NickName": "CPU Core"
-      },
-      {
-        "Identifier": "/lpc/nct6687dr/temperature/1",
-        "IsHidden": false,
-        "NickName": "System"
-      },
-      {
-        "Identifier": "/lpc/nct6687dr/temperature/2",
-        "IsHidden": false,
-        "NickName": "VRM MOS"
-      },
-      {
-        "Identifier": "/lpc/nct6687dr/temperature/3",
-        "IsHidden": false,
-        "NickName": "Chipset"
-      },
-      {
-        "Identifier": "NVApiWrapper/0-GB202-A/sensor/0",
-        "IsHidden": false,
-        "NickName": "GPU"
-      }
-    ]
+    "TemperatureSensors": []
   },
   "Sensors": {
     "AdlxWrapperSettings": {
